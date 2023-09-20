@@ -39,7 +39,7 @@ git clone https://github.com/codeitlikemiley/arithmetic-parser
 cd arithmetic-parser
 ```
 
-1. Run the program
+2. Run the program
 
 ```shell
 cargo run
@@ -57,7 +57,7 @@ Result: 20
 arithmetic-parser> _
 ```
 
-1. Build for release
+3. Build for release
 
 ```shell
 cargo build --release
@@ -74,7 +74,7 @@ Result: 20
 arithmetic-parser> _
 ```
 
-1. Run test cases
+4. Run test cases
 
 ```sh
 cargo test
@@ -94,32 +94,32 @@ test tests::test_unmatched_parenthesis ... ok
 
 ## How to Run Arithmetic Parser
 
-You can either download the [binary file](https://github.com/codeitlikemiley/arithmetic-parser/releases/download/v1/arithmetic-parser.pkg) (MacOS Only) from [release page](https://github.com/codeitlikemiley/arithmetic-parser/releases/tag/v1) from source or build it yourself if your on Linux or Windows
+1. You can either download the [binary file](https://github.com/codeitlikemiley/arithmetic-parser/releases/download/v1/arithmetic-parser.pkg) (MacOS Only) from [release page](https://github.com/codeitlikemiley/arithmetic-parser/releases/tag/v1) from source or build it yourself if your on Linux or Windows
 
 ![download.png](assets%2Fdownload.png)
 
-Give it permission to run
+2 . Give it permission to run
 
 Go to System Settings > Security & Privacy
 
 ![allowed.png](assets%2Fallowed.png)
 
 
-Click Open Anyway
+3. Click Open Anyway
 ![prompted.png](assets%2Fprompted.png)
 
 Install and continue
 ![install.png](assets%2Finstall.png)
 
-you will be prompted to enter your password
+4. you will be prompted to enter your password
 
 ![password.png](assets%2Fpassword.png)
 
-if asked to delete the installer, click move to trash
+5. if asked to delete the installer, click move to trash
 
 ![delete.png](assets%2Fdelete.png)
 
-open your terminal and type in `arithmetic-parser`
+6. open your terminal and type in `arithmetic-parser`
 
 start typing in your expression and press enter to evaluate
 ![cli.png](assets%2Fcli.png)
