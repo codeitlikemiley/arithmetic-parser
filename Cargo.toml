@@ -1,0 +1,19 @@
+[package]
+name = "arithmetic_parser"
+description = "A simple arithmetic parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[package.metadata.bundle]
+name = "Arithmetic Parser"
+identifier = "com.codeitlikemiley.arithmetic-parser"
+copyright = "Copyright (c) codeitlikemiley 2023. All rights reserved."
+category = "Developer Tool"
+short_description = "A simple arithmetic parser"
+long_description = "A simple arithmetic parser"
+version = "0.1.0"
+resources = []
